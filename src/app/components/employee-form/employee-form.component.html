@@ -1,0 +1,37 @@
+<h2 mat-dialog-title>{{ data ? 'Edit Employee' : 'Add New Employee' }}</h2>
+<mat-dialog-content>
+  <form [formGroup]="form" class="full-width">
+    <mat-form-field appearance="outline" class="full-width padding-top">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="name" aria-label="Employee Name">
+      <mat-error *ngIf="form.get('name')?.hasError('required')">Name is required</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width padding-top">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" aria-label="Employee Email">
+      <mat-error *ngIf="form.get('email')?.hasError('required')">Email is required</mat-error>
+      <mat-error *ngIf="form.get('email')?.hasError('email')">Invalid email format</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width padding-top">
+      <mat-label>Department</mat-label>
+      <mat-select formControlName="department" aria-label="Employee Department">
+        <mat-option value="HR">HR</mat-option>
+        <mat-option value="IT">IT</mat-option>
+        <mat-option value="Finance">Finance</mat-option>
+        <mat-option value="Marketing">Marketing</mat-option>
+        <mat-option value="Sales">Sales</mat-option>
+      </mat-select>
+      <mat-error *ngIf="form.get('department')?.hasError('required')">Department is required</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="full-width padding-top">
+      <mat-label>Phone</mat-label>
+      <input matInput formControlName="phone" aria-label="Employee Phone">
+      <mat-error *ngIf="form.get('phone')?.hasError('required')">Phone is required</mat-error>
+      <mat-error *ngIf="form.get('phone')?.hasError('pattern')">Phone number should be a 11-digit number</mat-error>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Cancel</button>
+  <button mat-raised-button color="primary" (click)="save()" [disabled]="form.invalid">Save</button>
+</mat-dialog-actions>

@@ -1,0 +1,144 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "email": "vana@example.com",
+      "department": "HR",
+      "phone": "09123456789"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị B",
+      "email": "thib@example.com",
+      "department": "IT",
+      "phone": "09876543210"
+    },
+    {
+      "id": "3",
+      "name": "Lê Văn C",
+      "email": "vanc@example.com",
+      "department": "Finance",
+      "phone": "09011223344"
+    },
+    {
+      "id": "4",
+      "name": "Phạm Thị D",
+      "email": "thid@example.com",
+      "department": "HR",
+      "phone": "09334455667"
+    },
+    {
+      "id": "5",
+      "name": "Đỗ Văn E",
+      "email": "vane@example.com",
+      "department": "IT",
+      "phone": "09666778899"
+    },
+    {
+      "id": "6",
+      "name": "Ngô Thị F",
+      "email": "thif@example.com",
+      "department": "Marketing",
+      "phone": "09779988552"
+    },
+    {
+      "id": "7",
+      "name": "Bùi Văn G",
+      "email": "vang@example.com",
+      "department": "Sales",
+      "phone": "09443322110"
+    },
+    {
+      "id": "8",
+      "name": "Hoàng Thị H",
+      "email": "thih@example.com",
+      "department": "HR",
+      "phone": "09551234561"
+    },
+    {
+      "id": "9",
+      "name": "Mai Văn I",
+      "email": "vani@example.com",
+      "department": "Finance",
+      "phone": "09332211008"
+    },
+    {
+      "id": "10",
+      "name": "Vũ Thị J",
+      "email": "thij@example.com",
+      "department": "Sales",
+      "phone": "09221133445"
+    },
+    {
+      "id": "11",
+      "name": "Dương Văn K",
+      "email": "vank@example.com",
+      "department": "IT",
+      "phone": "09117778880"
+    },
+    {
+      "id": "12",
+      "name": "Lý Thị L",
+      "email": "thil@example.com",
+      "department": "Marketing",
+      "phone": "09773334442"
+    },
+    {
+      "id": "13",
+      "name": "Trịnh Thị M",
+      "email": "thim@example.com",
+      "department": "HR",
+      "phone": "09244556675"
+    },
+    {
+      "id": "14",
+      "name": "Cao Văn N",
+      "email": "vann@example.com",
+      "department": "IT",
+      "phone": "09099887761"
+    },
+    {
+      "id": "15",
+      "name": "Đinh Thị O",
+      "email": "thio@example.com",
+      "department": "Sales",
+      "phone": "09445566772"
+    },
+    {
+      "id": "16",
+      "name": "Phan Văn P",
+      "email": "vanp@example.com",
+      "department": "HR",
+      "phone": "09115556663"
+    },
+    {
+      "id": "17",
+      "name": "Tạ Thị Q",
+      "email": "thiq@example.com",
+      "department": "Finance",
+      "phone": "09335557774"
+    },
+    {
+      "id": "18",
+      "name": "Lâm Văn R",
+      "email": "vanr@example.com",
+      "department": "Marketing",
+      "phone": "09033445567"
+    },
+    {
+      "id": "19",
+      "name": "Nguyễn Thị S",
+      "email": "this@example.com",
+      "department": "Sales",
+      "phone": "09221144339"
+    },
+    {
+      "id": "20",
+      "name": "Trần Văn T",
+      "email": "vant@example.com",
+      "department": "IT",
+      "phone": "09884455668"
+    }
+  ]
+}
