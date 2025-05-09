@@ -10,7 +10,7 @@
 
 ## ⚙️ Cách cài đặt & khởi động dự án
 # 1. Clone repo hoặc tải file zip
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/LaPhuocLoc/mock-project-loclp3.git
 cd your-repo-name
 
 # 2. Cài đặt các dependency
